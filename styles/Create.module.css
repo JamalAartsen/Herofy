@@ -1,0 +1,39 @@
+.createContainer {
+    text-align: center; 
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #A20019;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description {
+    margin-top: 0;
+    color: #000;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.startBtn {
+    margin-bottom: 100px;
+    background-color: #DA4040;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    font-family: montserrat, sans-serif;
+    width: 200px;
+}
+
+.startBtn:hover {
+    background-color: #A20019;
+    box-shadow: none;
+}

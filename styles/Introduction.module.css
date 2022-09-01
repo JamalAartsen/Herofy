@@ -1,0 +1,32 @@
+.introductionContainer {
+    background-color: #DA4040;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.textContainer {
+    margin: auto;
+    /* TODO: Moet steeds minder worden als scherm kleiner wordt */
+    width: 50%;
+    text-align: center;
+    display: table;
+}
+
+.title {
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.description {
+    color: #fff;
+    font-size: 40px;
+    margin: 0px;
+    opacity: 0.8;
+}

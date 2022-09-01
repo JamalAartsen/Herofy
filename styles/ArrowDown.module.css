@@ -1,0 +1,32 @@
+.arrowDown {
+    /* TODO: Moet veranderd worden voor mobile view */
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.arrowDown:hover {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

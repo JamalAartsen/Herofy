@@ -1,0 +1,19 @@
+.footerContainer {
+    background-color: #DA4040;
+    font-family: montserrat, sans-serif;
+    padding: 20px;
+}
+
+.copyrightText {
+    margin: 0%;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+}
+
+.linkPortfolio {
+    color: #fff;
+    text-decoration: none;
+}
