@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+
+.right {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 100px;
+}
