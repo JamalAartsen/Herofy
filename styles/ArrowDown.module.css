@@ -1,8 +1,5 @@
 .arrowDown {
-    /* TODO: Moet veranderd worden voor mobile view */
-    position: absolute;
-    bottom: 100px;
-
+    margin-bottom: 100px;
 }
 
 .arrowDown:hover {
@@ -28,5 +25,11 @@
 
     100% {
         transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .arrowDown {
+        width: 50px;
     }
 }

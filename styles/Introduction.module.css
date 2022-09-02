@@ -8,11 +8,11 @@
 }
 
 .textContainer {
-    margin: auto;
-    /* TODO: Moet steeds minder worden als scherm kleiner wordt */
     width: 50%;
     text-align: center;
     display: table;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .title {
@@ -29,4 +29,31 @@
     font-size: 40px;
     margin: 0px;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1000px) {
+    .textContainer {
+        width: 80%;
+    }
+    .title {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .textContainer {
+        margin-bottom: 100px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
 }
