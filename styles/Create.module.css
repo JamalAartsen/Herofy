@@ -1,9 +1,12 @@
 .createContainer {
     text-align: center; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: montserrat, sans-serif;
+    background-color: #fff;
 }
 
 .title {
-    margin-top: 100px;
     margin-bottom: 0px;
     font-size: 40px;
     font-style: normal;
@@ -23,7 +26,6 @@
 }
 
 .startBtn {
-    margin-bottom: 100px;
     background-color: #DA4040;
     color: #fff;
     border-radius: 50px;

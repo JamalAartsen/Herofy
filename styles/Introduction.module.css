@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     display: flex;
+    font-family: montserrat, sans-serif;
 }
 
 .textContainer {
