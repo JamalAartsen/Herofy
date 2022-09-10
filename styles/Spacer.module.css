@@ -1,3 +1,9 @@
 .spacerContainer {
     height: 100px;
 }
+
+@media screen and (max-width: 700px) {
+    .spacerContainer {
+        height: 50px;
+    }
+}

@@ -1,11 +1,11 @@
 .imageContainer {
-    width: 70%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media screen and (max-width: 1000px) {
     .imageContainer {
-        width: 90%;
+        width: 70%;
     }
 }
