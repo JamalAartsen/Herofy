@@ -1,0 +1,19 @@
+.exampleSlider {
+    width: 70%;
+}
+
+.exampleImage {
+    height: 100px ;
+}
+
+@media screen and (max-width: 1000px) {
+    .exampleSlider {
+        width: 80%;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .exampleSlider {
+        width: 90%;
+    }    
+}

@@ -5,16 +5,8 @@ import Step from "./Step"
 export default function StepContainer(props) {
     return (
         <div className={Styles.container}>
-            <>
-
-                
-
-                    <Step title={props.title} description={props.description} />
-
-                    <ImageStep image={props.image} alt={props.alt} />
-
-          
-            </>
+            <Step title={props.title} description={props.description} />
+            <ImageStep image={props.image} alt={props.alt} />
         </div>
     )
 }
