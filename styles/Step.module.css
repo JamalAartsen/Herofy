@@ -16,3 +16,9 @@
     opacity: 0.8;
     font-size: 18px;
 }
+
+@media screen and (max-width: 1000px) {
+    .stepContainer {
+        margin-bottom: 16px;
+    }
+}

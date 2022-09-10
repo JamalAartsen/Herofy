@@ -13,3 +13,32 @@
     margin-left: 15px;
     margin-right: 100px;
 }
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+
+    .left {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .right {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .right {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
