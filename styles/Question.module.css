@@ -1,0 +1,26 @@
+.container {
+    color: #fff !important;
+    font-family: montserrat, sans-serif !important;
+}
+
+.question {
+    font-weight: 600;
+}
+
+.control {
+    outline: none !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border-color: #fff !important;
+    border-width: 2px !important;
+    color: #fff !important;
+}
+
+.control:focus {
+    box-shadow: none !important;
+    border-color: #fff !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.control::placeholder {
+    color: rgba(255, 255, 255, 0.767) !important;
+}

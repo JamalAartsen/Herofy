@@ -1,0 +1,23 @@
+.container {
+    background-color: #DA4040;
+    min-height: 100vh;
+    font-family: montserrat, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.column {
+    padding-right: 100px;
+    padding-left: 100px;
+}
