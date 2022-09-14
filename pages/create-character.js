@@ -1,11 +1,20 @@
 import Question from "../components/Utils/Question"
 import Styles from "../styles/CreateCharacter.module.css"
 import { Container, Row, Col } from 'react-bootstrap'
+import ArrowBack from "../components/Utils/ArrowBack"
 
 export default function CreateCharacter() {
     return (
         <div className={Styles.container}>
+
+
+            <ArrowBack />
+
             <h1 className={Styles.title}>Create Character</h1>
+
+
+
+
             <div className={Styles.indsideContainer}>
                 <Container fluid>
                     <Row className={Styles.row} lg={2} md={2} sm={1} xs={1}>
