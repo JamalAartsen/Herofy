@@ -11,16 +11,15 @@
     font-weight: bold;
     text-align: center;
     flex: 1;
-    margin: 0%;
-}
-
-.row {
     margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .column {
     padding-right: 100px;
     padding-left: 100px;
+    margin-bottom: 50px;
 }
 
 .headerContainer {
@@ -29,4 +28,41 @@
     padding-right: 100px;
     margin-bottom: 50px;
     height: 100px;
+}
+
+.question {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.charactButtonContainer {
+    display: flex;
+}
+
+.divider {
+    width: 20px;
+}
+
+.generateBtn {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    font-family: montserrat, sans-serif;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.generateBtn:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }

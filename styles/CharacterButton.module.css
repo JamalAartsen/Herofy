@@ -1,0 +1,20 @@
+.characterButton {
+    background-color: rgba(240, 248, 255, 0) !important;
+    border-width: 2px !important;
+    border-color: #fff !important;
+    font-family: montserrat, sans-serif !important;
+    flex: 1;
+    font-weight: 500;
+}
+
+.characterButton:hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #000 !important;
+}
+
+.characterButton:focus {
+    box-shadow: none !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}

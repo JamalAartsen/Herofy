@@ -1,0 +1,46 @@
+.label {
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.range {
+    width: 100%;
+    background: #fff;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    height: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.rangeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    color: #fff;
+    font-weight: 500;
+    font-family: montserrat, sans-serif;
+    margin: 0%;
+}
