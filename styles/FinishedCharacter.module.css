@@ -1,0 +1,45 @@
+.container {
+    background-color: #DA4040;
+    min-height: 100vh;
+    font-family: montserrat, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.insideContainer {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.leftContainer {
+    flex: 1;
+    background-color: #000;
+}
+
+.rightContainer {
+    flex: 1;
+    background-color: #fff;
+}
+
+.name {
+    color: #fff;
+    font-weight: bold;
+}
+
+.alias {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.history {
+    color: rgb(224, 224, 224);
+    font-weight: 300;
+    margin-bottom: 20px;
+}

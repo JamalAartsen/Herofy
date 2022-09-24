@@ -5,11 +5,12 @@ import ArrowBack from "../components/Utils/ArrowBack"
 import Ranger from "../components/Utils/ranger"
 import CharacterButton from "../components/Utils/CharacterButton"
 import Form from 'react-bootstrap/Form';
+import Link from "next/link"
 
 export default function CreateCharacter() {
     return (
         <div className={Styles.container}>
-            <ArrowBack />
+            <ArrowBack link="/" />
             <h1 className={Styles.title}>Create Character</h1>
             <div className={Styles.indsideContainer}>
                 <Container fluid>
@@ -33,7 +34,7 @@ export default function CreateCharacter() {
                     </Row>
                 </Container>
             </div>
-            <button className={Styles.generateBtn}>Generate</button>
+            <Link href="/finished-character"><button className={Styles.generateBtn}>Generate</button></Link>
         </div>
     )
 }
