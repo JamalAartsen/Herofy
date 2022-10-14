@@ -5,7 +5,7 @@ import PowerLevel from "../components/Utils/PowerLevel"
 export default function FinishedCharacter() {
     return (
         <div className={Styles.container}>
-            <ArrowBack link="/" />
+            <ArrowBack link="/create-character" />
             <div className={Styles.insideContainer}>
                 <div className={Styles.leftContainer}>
                     <h1 className={Styles.name}>Jamsz</h1>
